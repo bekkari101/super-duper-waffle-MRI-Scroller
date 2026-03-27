@@ -56,20 +56,40 @@ Main training logs and plots are stored in:
 - [code/runs/run_002/logs/dice_curve.png](code/runs/run_002/logs/dice_curve.png)
 - [code/runs/run_002/logs/lr_curve.png](code/runs/run_002/logs/lr_curve.png)
 
+Rendered training curves:
+
+![Loss Curve](code/runs/run_002/logs/loss_curve.png)
+![Dice Curve](code/runs/run_002/logs/dice_curve.png)
+![Learning Rate Curve](code/runs/run_002/logs/lr_curve.png)
+
 Per-epoch loss snapshots are in the same folder:
 
 - [code/runs/run_002/logs/loss_epoch_000.png](code/runs/run_002/logs/loss_epoch_000.png)
 - ...
 - [code/runs/run_002/logs/loss_epoch_053.png](code/runs/run_002/logs/loss_epoch_053.png)
 
+Sample epoch snapshots:
+
+![Loss Epoch 000](code/runs/run_002/logs/loss_epoch_000.png)
+![Loss Epoch 053](code/runs/run_002/logs/loss_epoch_053.png)
+
 Mask previews per epoch:
 
 - [code/runs/run_002/results/mask_previews](code/runs/run_002/results/mask_previews)
+
+Latest mask preview example:
+
+![Mask Preview Epoch 053](code/runs/run_002/results/mask_previews/mask_epoch_053.png)
 
 Spatial weighting diagnostics:
 
 - [code/runs/run_002/results/spatial_weights/combined_example.png](code/runs/run_002/results/spatial_weights/combined_example.png)
 - [code/runs/run_002/results/spatial_weights/gaussian_prior.png](code/runs/run_002/results/spatial_weights/gaussian_prior.png)
+
+Rendered spatial weighting diagnostics:
+
+![Spatial Weights Combined](code/runs/run_002/results/spatial_weights/combined_example.png)
+![Spatial Weights Gaussian Prior](code/runs/run_002/results/spatial_weights/gaussian_prior.png)
 
 ## run_002 Results Summary
 
