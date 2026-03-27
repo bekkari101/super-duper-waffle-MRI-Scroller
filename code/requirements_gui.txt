@@ -1,0 +1,19 @@
+# GUI Dependencies for Medical Image Analysis Application
+PyQt5
+vtk
+matplotlib
+numpy
+torch
+torchvision
+scikit-learn
+tqdm
+Pillow
+SimpleITK
+nibabel
+opencv-python
+pandas
+scipy
+segmentation-models-pytorch
+albumentations
+timm
+tensorboard

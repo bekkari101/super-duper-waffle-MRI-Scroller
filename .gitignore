@@ -1,0 +1,53 @@
+# -----------------------------
+# Python cache / build
+# -----------------------------
+**/__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# -----------------------------
+# Virtual environments
+# -----------------------------
+.venv/
+venv/
+env/
+
+# -----------------------------
+# Large datasets (do not track)
+# -----------------------------
+/DATA/
+/DATASET/
+
+# -----------------------------
+# Training / inference artifacts
+# Keep source code in code/models/, ignore model weights and run outputs
+# -----------------------------
+/code/checkpoints/
+/code/logs/
+/code/results/
+/code/runs/
+/code/run*/
+/code/gui/runs/
+
+# Model weight files
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# -----------------------------
+# Notebook / temp / logs
+# -----------------------------
+*.ipynb_checkpoints
+*.tmp
+*.temp
+*.log
+
+# -----------------------------
+# Editor / OS files
+# -----------------------------
+.vscode-test/
+.DS_Store
+Thumbs.db
