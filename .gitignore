@@ -31,6 +31,12 @@ env/
 /code/run*/
 /code/gui/runs/
 
+# Keep these required run_002 folders tracked
+!/code/runs/
+!/code/runs/run_002/
+!/code/runs/run_002/logs/
+!/code/runs/run_002/results/
+
 # Model weight files
 *.pth
 *.pt
