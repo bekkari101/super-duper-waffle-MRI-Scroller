@@ -57,3 +57,6 @@ env/
 .vscode-test/
 .DS_Store
 Thumbs.db
+
+# Project-local assistant notes
+/code/CLAUDE_README.md
